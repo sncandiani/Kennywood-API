@@ -9,7 +9,6 @@ router = routers.DefaultRouter(trailing_slash=False)
 # Registering all the paths for a single resource using default router
 router.register(r'parkareas', ParkAreas, 'parkarea')
 router.register(r'attractions', Attractions, 'attraction')
-#  ???? What does each part mean ????
 # router.register(r'url_path', function, 'model verbose names')
 router.register(r'itineraries', ItineraryItems, 'itinerary')
 
